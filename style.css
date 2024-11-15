@@ -1,0 +1,469 @@
+* {margin: 0; padding: 0;}
+@font-face {
+    font-family: InriaSans-Bold;
+    src: url("/projeto-floresadv/fontes/InriaSans/InriaSans-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: InriaSans-Light;
+    src: url("/projeto-floresadv/fontes/InriaSans/InriaSans-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: InriaSans-Regular;
+    src: url("/projeto-floresadv/fontes/InriaSans/InriaSans-Regular.ttf") format("truetype");
+}
+  
+
+body {
+    background-color: #1A1A1A;
+}
+
+.logo {
+    max-width: 100%;
+    text-align: center;
+}
+
+    .logo img {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+}
+
+.socials-border {
+    border: solid 2px;
+    border-radius: 50px;
+    border-color: #DCB977;
+    text-align: center;
+    width: 80px;
+    height: 27px;
+    margin: 0 auto;
+    margin-bottom: 0.8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    background-color: #DCB977;
+    width: 100%;
+    border: none;
+}
+
+#linha-um {
+    height: 10px;
+}
+
+#balanca {
+    float: right;
+}
+
+.principal {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 87.4%;
+}
+
+.principal p {
+    color: #F7F7F7;
+    font: 2.25em InriaSans-Light, Sans-Serif;
+    margin: 8% 11% 4% 10%;
+
+}
+
+#bold {
+    font-family: InriaSans-Bold, Sans-Serif;
+    color: #EDCF90;
+}
+
+.principal ul li {
+    font-family: InriaSans-Light, Sans-Serif;
+    font-size: 3em;
+    color: #F7F7F7;
+    margin-left: 13%;
+}
+
+.principal ul li::marker {
+    font-size: 40%;
+}
+
+#linha-dois {
+    height: 6px;
+}
+
+.img {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#section-dois p {
+    font-family: InriaSans-Regular, Sans-Serif;
+    font-size: 3em;
+    color: #F7F7F7;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.botoes-dois, .botoes-um {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.botao-wpp-um {
+    width: 182px;
+    height: 69px;
+    border-radius: 30px;
+    border: solid 5px;
+    border-color: #02542D;
+    text-align: center;
+    align-content: center;
+    font-family: InriaSans-Regular, Sans-Serif;
+    font-size: 1em;
+}
+
+.botao-insta-um {
+    width: 182px;
+    height: 69px;
+    border-radius: 30px;
+    border: solid 5px;
+    border-color: #A13B5D;
+    text-align: center;
+    align-content: center;
+    font-family: InriaSans-Regular, Sans-Serif;
+    font-size: 1em;
+}
+
+    .botao-wpp-um a, .botao-insta-um a, .botao-insta a, .botao-wpp-dois-s4 a {
+        color: #F7F7F7;
+        text-decoration-line: none;
+    }
+
+    .botao-wpp-um img, .botao-insta-um img, .botao-wpp-dois-s4 img, .botao-insta img {
+        margin-right: 4%;
+    }
+
+
+.linha {
+    color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    flex-grow: 0;
+    margin-top: 7%;
+    row-gap: 70px;
+}
+
+.trab, .prev, .fam, .civ, .crim, .emp {
+    border: solid 12px #DCB977;
+    border-radius: 93px;
+    align-items: stretch;
+    height: 340px;
+    flex-basis: 450px;
+    flex-shrink: 0;
+}  
+
+.linha h1 {
+    font-family: InriaSans-Bold,Sans-Serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 6% 0% 3% 0%;
+}
+
+.linha ul li {
+    font-family: InriaSans-Light, Sans-Serif;
+    font-size: 2.2em;
+    margin: 0% 2% 4% 12%;
+}
+
+    .linha ul li::marker {
+        font-size: 40%;
+    }
+
+.cta {
+    font-family: InriaSans-Bold, Sans-Serif;
+    margin-top: 11%;
+    text-align: center;
+    }
+
+    .cta h1 {
+        color: #EDCF90;
+        font-size: 4em;
+    }
+
+    .cta h2 {
+        color: #F7F7F7;
+        font-size: 2em;
+        margin-top: 1%;
+    }
+
+.botao-wpp-dois-s4 {
+        width: 229px;
+        height: 87px;
+        border-radius: 37px;
+        border: solid 5px;
+        border-color: #02542D;
+        text-align: center;
+        align-content: center;
+        font-family: InriaSans-Regular, Sans-Serif;
+        font-size: 1.5em;
+    }
+    
+.botao-insta {
+        width: 229px;
+        height: 87px;
+        border-radius: 37px;
+        border: solid 5px;
+        border-color: #A13B5D;
+        text-align: center;
+        align-content: center;
+        font-family: InriaSans-Regular, Sans-Serif;
+        font-size: 1.5em;
+    }
+
+#footer {
+    background-color: #aa7d2f;
+    height: 150px;
+    margin-top: 12%;
+    font-family: InriaSans-Bold, Sans-Serif;
+    font-size: 1.4em;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer address a, #develop{
+    text-decoration-line: none;
+    color: #1A1A1A;
+    font-family: InriaSans-Bold, Sans-Serif;
+}
+
+#develop {
+    float: right;
+}
+
+#address, #develop {
+    align-content: center;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        max-width: 85%;
+    }
+
+    .socials-border {
+        width: 65px;
+        height: 20px;
+    }
+
+    .socials img {
+        width: 14px;
+        margin-top: 42%
+    }
+
+    #balanca {
+        content: url(/projeto-floresadv/imagens/banner-768w.png);
+        max-width: 100%;
+    }
+    
+    .principal p {
+        font-size: 1.5em;
+        margin: 115% 3% 5% 3%;
+    }
+
+    .principal ul li {
+        font-size: 1.6em;
+    }
+
+    #linha-dois {
+        margin-top: 8%;
+    }
+
+    .img {
+        content: url(/projeto-floresadv/imagens/seta45px.png);
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 35px;
+    }
+
+    #section-dois p {
+        font-size: 1.5em;
+        width: 95%;
+    }
+
+    .botao-wpp-um, .botao-insta-um {
+        width: 160px;
+        height: 52px;
+        border-radius: 25px;
+        margin: 5% 4% 0% 4%;
+        font-size: 1em;
+    }
+
+    #section-tres {
+        margin-top: 17%;
+    }
+    
+    .linha {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .trab, .prev, .fam, .civ, .crim, .emp {
+        border: solid 5px #AA7D2F;
+        flex: 1;
+    } 
+
+    .linha h1 {
+        margin: 4% 0% 3% 0%;
+    }
+    
+    .linha ul {
+        margin: 0% 2% 8% 5%;
+    }
+
+    .cta {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 18%;
+        margin-bottom: 35%;
+    }
+    
+    .cta h1 {
+        font-size: 2.1em;
+        width: 100%;
+    }
+
+    .cta h2 {
+        font-size: 1.1em;
+        margin-top: 5%;
+    }
+
+    .botoes-dois {
+        margin-top: 8%;
+        gap: 10%;
+    }
+    
+    .botao-wpp-dois-s4, .botao-insta {
+        width: 130px;
+        height: 60px;
+        border-radius: 27px;
+        font-size: 1em;
+    }
+
+    #endereco, #email, #instagram, #develop {
+        font-size: 0.65em;
+    }
+
+    #develop {
+        align-content: end;
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .logo img {
+        max-width: 85%;
+    }
+
+    #balanca {
+        content: url(/projeto-floresadv/imagens/banner-1269w.png);
+        width: 100%;
+    }
+
+    .principal {
+        margin-bottom: 5%;
+        margin-top: 40%;
+    }
+
+    .principal ul li {
+        font-size: 2.5em;
+    }
+    
+    #section-dois p {
+        font-size: 2.2em;
+        max-width: 100%;
+    }
+
+    #section-tres {
+        max-width: 95%;
+        height: 60%;
+        margin: 0 auto;
+    }
+    
+    .trab, .prev, .fam, .civ, .crim, .emp {
+        border: solid 8px #AA7D2F;
+        flex: 1;
+        width: 80%;
+        margin: 0 auto;
+    } 
+
+    .linha {
+        flex-direction: column;
+    }
+
+    .cta h1 {
+        font-size: 3.7em;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .cta h2 {
+        font-size: 2em;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+    #develop {
+        align-content: end;
+        margin-bottom: 2%;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+    .principal  p {
+        font-size: 2em;
+        margin: 7% 9% 3% 8%;
+    }
+
+    .principal ul {
+        font-size: 0.7em;
+    }
+    
+    #section-dois p  {
+        font-size: 2.4em;
+    }
+
+    .botao-wpp-um, .botao-insta-um {
+        width: 175px;
+        height: 62px;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px){
+    .principal  p {
+        font-size: 2.2em;
+        margin: 6% 9% 3% 8%;
+    }
+
+    .principal ul {
+        font-size: 1em;
+    }
+    
+    #section-dois p  {
+        font-size: 2.4em;
+    }
+}
