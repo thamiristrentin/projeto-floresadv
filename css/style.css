@@ -1,15 +1,15 @@
 * {margin: 0; padding: 0;}
 @font-face {
     font-family: InriaSans-Bold;
-    src: url("/projeto-floresadv/fontes/InriaSans/InriaSans-Bold.ttf") format("truetype");
+    src: url("../fontes/InriaSans/InriaSans-Bold.ttf") format("truetype");
 }
 @font-face {
     font-family: InriaSans-Light;
-    src: url("/projeto-floresadv/fontes/InriaSans/InriaSans-Light.ttf") format("truetype");
+    src: url("../fontes/InriaSans/InriaSans-Light.ttf") format("truetype");
 }
 @font-face {
     font-family: InriaSans-Regular;
-    src: url("/projeto-floresadv/fontes/InriaSans/InriaSans-Regular.ttf") format("truetype");
+    src: url("../fontes/InriaSans/InriaSans-Regular.ttf") format("truetype");
 }
   
 
@@ -69,18 +69,18 @@ hr {
 
 .principal p {
     color: #F7F7F7;
-    font: 2.25em InriaSans-Light, Sans-Serif;
+    font: 2.25em "InriaSans-Light", Sans-Serif;
     margin: 8% 11% 4% 10%;
 
 }
 
 #bold {
-    font-family: InriaSans-Bold, Sans-Serif;
+    font-family: "InriaSans-Bold", Sans-Serif;
     color: #EDCF90;
 }
 
 .principal ul li {
-    font-family: InriaSans-Light, Sans-Serif;
+    font-family: "InriaSans-Light", Sans-Serif;
     font-size: 3em;
     color: #F7F7F7;
     margin-left: 13%;
@@ -100,7 +100,7 @@ hr {
 }
 
 #section-dois p {
-    font-family: InriaSans-Regular, Sans-Serif;
+    font-family: "InriaSans-Regular", Sans-Serif;
     font-size: 3em;
     color: #F7F7F7;
     width: 75%;
@@ -125,7 +125,7 @@ hr {
     border-color: #02542D;
     text-align: center;
     align-content: center;
-    font-family: InriaSans-Regular, Sans-Serif;
+    font-family: "InriaSans-Regular", Sans-Serif;
     font-size: 1em;
 }
 
@@ -137,7 +137,7 @@ hr {
     border-color: #A13B5D;
     text-align: center;
     align-content: center;
-    font-family: InriaSans-Regular, Sans-Serif;
+    font-family: "InriaSans-Regular", Sans-Serif;
     font-size: 1em;
 }
 
@@ -171,14 +171,14 @@ hr {
 }  
 
 .linha h1 {
-    font-family: InriaSans-Bold,Sans-Serif;
+    font-family: "InriaSans-Bold",Sans-Serif;
     font-size: 2.5em;
     text-align: center;
     margin: 6% 0% 3% 0%;
 }
 
 .linha ul li {
-    font-family: InriaSans-Light, Sans-Serif;
+    font-family: "InriaSans-Light", Sans-Serif;
     font-size: 2.2em;
     margin: 0% 2% 4% 12%;
 }
@@ -188,7 +188,7 @@ hr {
     }
 
 .cta {
-    font-family: InriaSans-Bold, Sans-Serif;
+    font-family: "InriaSans-Bold", Sans-Serif;
     margin-top: 11%;
     text-align: center;
     }
@@ -212,7 +212,7 @@ hr {
         border-color: #02542D;
         text-align: center;
         align-content: center;
-        font-family: InriaSans-Regular, Sans-Serif;
+        font-family: "InriaSans-Regular", Sans-Serif;
         font-size: 1.5em;
     }
     
@@ -224,7 +224,7 @@ hr {
         border-color: #A13B5D;
         text-align: center;
         align-content: center;
-        font-family: InriaSans-Regular, Sans-Serif;
+        font-family: "InriaSans-Regular", Sans-Serif;
         font-size: 1.5em;
     }
 
@@ -232,7 +232,7 @@ hr {
     background-color: #aa7d2f;
     height: 150px;
     margin-top: 12%;
-    font-family: InriaSans-Bold, Sans-Serif;
+    font-family: "InriaSans-Bold", Sans-Serif;
     font-size: 1.4em;
     position: inherit;
     bottom: 0;
@@ -245,7 +245,7 @@ hr {
 #footer address a, #develop{
     text-decoration-line: none;
     color: #1A1A1A;
-    font-family: InriaSans-Bold, Sans-Serif;
+    font-family: "InriaSans-Bold", Sans-Serif;
 }
 
 #develop {
@@ -274,7 +274,7 @@ hr {
     }
 
     #balanca {
-        content: url(/projeto-floresadv/imagens/banner-768w.png);
+        content: url("../imagens/banner-768w.png");
         max-width: 100%;
     }
     
@@ -292,7 +292,7 @@ hr {
     }
 
     .img {
-        content: url(/projeto-floresadv/imagens/seta45px.png);
+        content: url("../imagens/seta45px.png");
         margin: 0 auto;
         margin-top: 5%;
         width: 35px;
@@ -321,7 +321,7 @@ hr {
     }
 
     .trab, .prev, .fam, .civ, .crim, .emp {
-        border: solid 5px #AA7D2F;
+        border: solid 5px #DCB977;
         flex: 1;
     } 
 
@@ -378,7 +378,7 @@ hr {
     }
 
     #balanca {
-        content: url(/projeto-floresadv/imagens/banner-1269w.png);
+        content: url("../imagens/banner-1269w.png");
         width: 100%;
     }
 
@@ -403,7 +403,7 @@ hr {
     }
     
     .trab, .prev, .fam, .civ, .crim, .emp {
-        border: solid 8px #AA7D2F;
+        border: solid 8px #DCB977;
         flex: 1;
         width: 80%;
         margin: 0 auto;
